@@ -1,12 +1,9 @@
-# Fun-KTV Client
+# Maybank-CLient
+npm install
+npm start
+http://localhost:4100
 
-## Flow for User Registration and User Login
-For JWT – Token based Authentication with Web API, we’re gonna call 2 endpoints:
-- POST `api-fun-ktv/auth/signup` for User Registration
-- POST `api-fun-ktv/auth/signin` for User Login
-
-## WebSolution Client is Using Core-UI Angular Responsive Framework
-For Core-UI Responsive Framework Guide:
-- https://coreui.io/angular/
-```
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`.
+# SpringBoot Maybank Backend
+1) http://localhost:8100
+2) Using MySQL and Auto Create Table
+3) Execute notes.sql under src/main/sql/notes.sql
