@@ -1,0 +1,681 @@
+2024-10-03T07:01:27.141+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:01:27.378+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [121ms]
+2024-10-03T07:01:48.776+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:01:48.784+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T07:01:49.255+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:01:49.260+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [5ms]
+2024-10-03T07:03:30.490+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:30.504+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T07:03:30.510+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:30.518+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T07:03:34.925+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:34.941+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [15ms]
+2024-10-03T07:03:37.412+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:37.422+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T07:03:39.184+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:39.191+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [6ms]
+2024-10-03T07:03:40.444+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:03:40.455+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [10ms]
+2024-10-03T07:04:01.233+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T07:04:01.245+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [11ms]
+2024-10-03T09:10:12.877+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T09:10:12.903+0800 INFO {dataSource-1} closed
+2024-10-03T09:10:27.602+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 88404 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T09:10:27.605+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T09:10:27.684+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T09:10:27.684+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T09:10:28.743+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:10:28.746+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T09:10:28.998+0800 INFO Finished Spring Data repository scanning in 243 ms. Found 6 JPA repository interfaces.
+2024-10-03T09:10:29.018+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:10:29.019+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T09:10:29.037+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.038+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.038+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.038+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.038+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.039+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:10:29.039+0800 INFO Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-10-03T09:10:29.717+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T09:10:29.794+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T09:10:30.397+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T09:10:30.409+0800 INFO Starting service [Tomcat]
+2024-10-03T09:10:30.409+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T09:10:30.496+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T09:10:30.497+0800 INFO Root WebApplicationContext: initialization completed in 2812 ms
+2024-10-03T09:10:30.878+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T09:10:30.970+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T09:10:31.225+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T09:10:31.739+0800 INFO {dataSource-1} inited
+2024-10-03T09:10:31.771+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T09:10:31.771+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T09:10:33.795+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T09:10:33.812+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T09:10:35.757+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T09:10:36.127+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c65132c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e489c11, org.springframework.security.web.context.SecurityContextHolderFilter@3f487a31, org.springframework.security.web.header.HeaderWriterFilter@779f2ad6, org.springframework.web.filter.CorsFilter@6bb567ba, org.springframework.security.web.authentication.logout.LogoutFilter@1e08433a, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@6af8f3d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2caf9dd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74dce335, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d0e9d68, org.springframework.security.web.session.SessionManagementFilter@5a3b72e3, org.springframework.security.web.access.ExceptionTranslationFilter@32bd1fdc, org.springframework.security.web.access.intercept.AuthorizationFilter@20ce280]
+2024-10-03T09:10:36.853+0800 INFO LiveReload server is running on port 35729
+2024-10-03T09:10:36.900+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T09:10:36.916+0800 INFO Started MyRestApiServiceApplication in 10.533 seconds (process running for 12.012)
+2024-10-03T09:10:36.917+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T09:10:37.169+0800 INFO SocketIO server started at port: 8101
+2024-10-03T09:12:36.934+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Start Timer
+2024-10-03T09:12:36.974+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Time Used [39ms]
+2024-10-03T09:13:37.118+0800 INFO Performance Logger [TransactionServiceImpl.transactionSave] - Start Timer
+2024-10-03T09:13:37.182+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Start Timer
+2024-10-03T09:13:37.190+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Time Used [7ms]
+2024-10-03T09:13:37.335+0800 INFO Performance Logger [TransactionServiceImpl.transactionSave] - Time Used [217ms]
+2024-10-03T09:34:45.244+0800 INFO Restarting due to 123 class path changes (0 additions, 122 deletions, 1 modification)
+2024-10-03T09:34:45.269+0800 INFO Stopping service [Tomcat]
+2024-10-03T09:34:45.286+0800 WARN The web application [maybank#v1#rest] appears to have started a thread named [Druid-ConnectionPool-Create-586357544] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3745)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3690)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1625)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2443)
+2024-10-03T09:34:45.287+0800 WARN The web application [maybank#v1#rest] appears to have started a thread named [Druid-ConnectionPool-Destroy-586357544] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:465)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2540)
+2024-10-03T09:34:45.326+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T09:34:45.333+0800 INFO {dataSource-1} closed
+2024-10-03T09:34:45.741+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 88404 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T09:34:45.741+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T09:34:46.062+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:34:46.062+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T09:34:46.064+0800 INFO Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-10-03T09:34:46.069+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:34:46.070+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T09:34:46.070+0800 INFO Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-10-03T09:34:46.259+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T09:34:46.260+0800 INFO Starting service [Tomcat]
+2024-10-03T09:34:46.260+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T09:34:46.293+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T09:34:46.293+0800 INFO Root WebApplicationContext: initialization completed in 548 ms
+2024-10-03T09:34:46.324+0800 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-03T09:34:46.325+0800 INFO Stopping service [Tomcat]
+2024-10-03T09:34:46.334+0800 INFO 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-03T09:34:46.377+0800 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-10-03T09:45:28.948+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 25336 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T09:45:28.952+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T09:45:29.018+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T09:45:29.018+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T09:45:29.988+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:45:29.989+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T09:45:30.172+0800 INFO Finished Spring Data repository scanning in 176 ms. Found 6 JPA repository interfaces.
+2024-10-03T09:45:30.191+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T09:45:30.193+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T09:45:30.214+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.214+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.216+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.216+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.216+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.217+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T09:45:30.217+0800 INFO Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-10-03T09:45:30.902+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T09:45:31.010+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T09:45:31.768+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T09:45:31.788+0800 INFO Starting service [Tomcat]
+2024-10-03T09:45:31.788+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T09:45:31.888+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T09:45:31.889+0800 INFO Root WebApplicationContext: initialization completed in 2870 ms
+2024-10-03T09:45:32.905+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T09:45:33.076+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T09:45:33.398+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T09:45:33.922+0800 INFO {dataSource-1} inited
+2024-10-03T09:45:33.957+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T09:45:33.958+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T09:45:36.075+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T09:45:36.086+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T09:45:39.527+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T09:45:39.887+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6514b0be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32e18959, org.springframework.security.web.context.SecurityContextHolderFilter@2fe2a9e0, org.springframework.security.web.header.HeaderWriterFilter@122a1858, org.springframework.web.filter.CorsFilter@de6be08, org.springframework.security.web.authentication.logout.LogoutFilter@54afd7a4, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@4a8d5bee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8ab3da0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@752bfda9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20a31694, org.springframework.security.web.session.SessionManagementFilter@4b0444b7, org.springframework.security.web.access.ExceptionTranslationFilter@43885e72, org.springframework.security.web.access.intercept.AuthorizationFilter@3af0b914]
+2024-10-03T09:45:40.540+0800 INFO LiveReload server is running on port 35729
+2024-10-03T09:45:40.590+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T09:45:40.606+0800 INFO Started MyRestApiServiceApplication in 12.629 seconds (process running for 13.78)
+2024-10-03T09:45:40.608+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T09:45:40.971+0800 INFO SocketIO server started at port: 8101
+2024-10-03T09:46:40.636+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Start Timer
+2024-10-03T09:46:40.681+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Time Used [44ms]
+2024-10-03T09:47:40.758+0800 INFO Performance Logger [TransactionServiceImpl.transactionSave] - Start Timer
+2024-10-03T09:47:40.807+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Start Timer
+2024-10-03T09:47:40.813+0800 INFO Performance Logger [FileInfoServiceImpl.save] - Time Used [5ms]
+2024-10-03T09:47:40.963+0800 INFO Performance Logger [TransactionServiceImpl.transactionSave] - Time Used [204ms]
+2024-10-03T10:01:22.007+0800 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T10:01:22.007+0800 INFO Initializing Servlet 'dispatcherServlet'
+2024-10-03T10:01:22.008+0800 INFO Completed initialization in 1 ms
+2024-10-03T10:01:22.235+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:01:22.257+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [21ms]
+2024-10-03T10:01:22.336+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T10:01:22.337+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T10:01:22.348+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T10:01:22.349+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T10:01:56.701+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:01:56.708+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:01:56.793+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T10:01:56.793+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T10:01:56.793+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T10:01:56.793+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T10:02:49.111+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:02:49.131+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [19ms]
+2024-10-03T10:02:55.045+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:02:55.060+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [13ms]
+2024-10-03T10:04:20.177+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:04:20.191+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [13ms]
+2024-10-03T10:05:04.241+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:05:04.251+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:06:02.155+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:06:02.165+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [10ms]
+2024-10-03T10:06:52.854+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:06:52.862+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:07:56.769+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:07:56.780+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [11ms]
+2024-10-03T10:08:28.860+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:08:28.877+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [17ms]
+2024-10-03T10:08:29.965+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:08:29.973+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:08:33.125+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:08:33.135+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:09:02.175+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:09:02.188+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T10:09:05.971+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:09:05.978+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:09:08.839+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:09:08.847+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:09:19.493+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:09:19.503+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [10ms]
+2024-10-03T10:09:24.338+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:09:24.345+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:10:41.323+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:41.331+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:10:43.002+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:43.009+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [6ms]
+2024-10-03T10:10:45.567+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:45.576+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:10:52.247+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:52.257+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:10:54.933+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:54.942+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:10:57.136+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:10:57.146+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:11:00.218+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:11:00.226+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:11:01.544+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:11:01.558+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [13ms]
+2024-10-03T10:11:14.484+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:11:14.493+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:11:23.922+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:11:23.930+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:14:01.676+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:14:01.690+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [13ms]
+2024-10-03T10:14:10.675+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:14:10.687+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [11ms]
+2024-10-03T10:14:17.942+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:14:17.956+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [14ms]
+2024-10-03T10:14:24.548+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:14:24.565+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [16ms]
+2024-10-03T10:15:37.387+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:15:37.396+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:15:39.460+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:15:39.473+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T10:15:40.556+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:15:40.563+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T10:15:42.086+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:15:42.099+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T10:16:35.515+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:35.527+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T10:16:35.540+0800 INFO Performance Logger [TransactionServiceImpl.updateTransaction] - Start Timer
+2024-10-03T10:16:35.557+0800 INFO Performance Logger [TransactionServiceImpl.updateTransaction] - Time Used [17ms]
+2024-10-03T10:16:35.564+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T10:16:35.564+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T10:16:35.574+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:35.584+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:16:50.809+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:50.827+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [17ms]
+2024-10-03T10:16:52.892+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:52.902+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T10:16:53.607+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:53.616+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:16:55.323+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:55.332+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T10:16:56.674+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T10:16:56.683+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T14:38:19.493+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:38:19.506+0800 INFO {dataSource-1} closed
+2024-10-03T14:38:33.164+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 79152 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T14:38:33.169+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T14:38:33.275+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T14:38:33.275+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T14:38:34.640+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:38:34.643+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T14:38:34.996+0800 INFO Finished Spring Data repository scanning in 331 ms. Found 6 JPA repository interfaces.
+2024-10-03T14:38:35.016+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:38:35.018+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T14:38:35.035+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.036+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.036+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.036+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.036+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.037+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:38:35.037+0800 INFO Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-10-03T14:38:35.872+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:38:35.955+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:38:36.723+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T14:38:36.734+0800 INFO Starting service [Tomcat]
+2024-10-03T14:38:36.734+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T14:38:36.821+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T14:38:36.822+0800 INFO Root WebApplicationContext: initialization completed in 3546 ms
+2024-10-03T14:38:37.246+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T14:38:37.326+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T14:38:37.554+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T14:38:37.958+0800 INFO {dataSource-1} inited
+2024-10-03T14:38:37.978+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T14:38:37.978+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T14:38:39.410+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T14:38:39.420+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:38:40.734+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T14:38:41.042+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f2be4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e42c676, org.springframework.security.web.context.SecurityContextHolderFilter@32e18959, org.springframework.security.web.header.HeaderWriterFilter@6ccfbf4, org.springframework.web.filter.CorsFilter@1a0f42ff, org.springframework.security.web.authentication.logout.LogoutFilter@2fea8fbf, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@68aa1e09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20a31694, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6072c37e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d426a03, org.springframework.security.web.session.SessionManagementFilter@3af0b914, org.springframework.security.web.access.ExceptionTranslationFilter@5293a100, org.springframework.security.web.access.intercept.AuthorizationFilter@7178b039]
+2024-10-03T14:38:41.642+0800 INFO LiveReload server is running on port 35729
+2024-10-03T14:38:41.685+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T14:38:41.699+0800 INFO Started MyRestApiServiceApplication in 10.18 seconds (process running for 11.623)
+2024-10-03T14:38:41.700+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T14:38:41.908+0800 INFO SocketIO server started at port: 8101
+2024-10-03T14:40:18.087+0800 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T14:40:18.087+0800 INFO Initializing Servlet 'dispatcherServlet'
+2024-10-03T14:40:18.090+0800 INFO Completed initialization in 3 ms
+2024-10-03T14:40:18.167+0800 ERROR Could not set user authentication in security context
+io.jsonwebtoken.security.WeakKeyException: The verification key's size is 256 bits which is not secure enough for the HS512 algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HS512 MUST have a size >= 512 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys class's 'secretKeyFor(SignatureAlgorithm.HS512)' method to create a key guaranteed to be secure enough for HS512.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.SignatureAlgorithm.assertValid(SignatureAlgorithm.java:387)
+	at io.jsonwebtoken.SignatureAlgorithm.assertValidVerificationKey(SignatureAlgorithm.java:328)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:380)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parse(ImmutableJwtParser.java:148)
+	at com.maybank.platform.services.restapi.config.security.TokenProvider.validateJwtToken(TokenProvider.java:67)
+	at com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:35)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilterInternal(SecurityContextHolderFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2024-10-03T14:40:18.422+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:40:18.518+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [95ms]
+2024-10-03T14:41:42.309+0800 ERROR Could not set user authentication in security context
+io.jsonwebtoken.security.WeakKeyException: The verification key's size is 256 bits which is not secure enough for the HS512 algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HS512 MUST have a size >= 512 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys class's 'secretKeyFor(SignatureAlgorithm.HS512)' method to create a key guaranteed to be secure enough for HS512.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.SignatureAlgorithm.assertValid(SignatureAlgorithm.java:387)
+	at io.jsonwebtoken.SignatureAlgorithm.assertValidVerificationKey(SignatureAlgorithm.java:328)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:380)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parse(ImmutableJwtParser.java:148)
+	at com.maybank.platform.services.restapi.config.security.TokenProvider.validateJwtToken(TokenProvider.java:67)
+	at com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:35)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilterInternal(SecurityContextHolderFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2024-10-03T14:41:43.984+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:41:44.035+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [49ms]
+2024-10-03T14:43:34.222+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:43:34.232+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T14:47:31.403+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:47:31.407+0800 INFO {dataSource-1} closed
+2024-10-03T14:47:37.508+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 69964 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T14:47:37.511+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T14:47:37.582+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T14:47:37.582+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T14:47:38.424+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:47:38.426+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T14:47:38.619+0800 INFO Finished Spring Data repository scanning in 184 ms. Found 6 JPA repository interfaces.
+2024-10-03T14:47:38.642+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:47:38.645+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T14:47:38.664+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.664+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.664+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.664+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.664+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.665+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:47:38.665+0800 INFO Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-10-03T14:47:39.284+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:47:39.352+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:47:39.869+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T14:47:39.881+0800 INFO Starting service [Tomcat]
+2024-10-03T14:47:39.881+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T14:47:39.946+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T14:47:39.947+0800 INFO Root WebApplicationContext: initialization completed in 2365 ms
+2024-10-03T14:47:40.288+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T14:47:40.343+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T14:47:40.519+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T14:47:40.912+0800 INFO {dataSource-1} inited
+2024-10-03T14:47:40.931+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T14:47:40.931+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T14:47:42.140+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T14:47:42.151+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:47:43.448+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T14:47:43.783+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fd2163a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@678122d4, org.springframework.security.web.context.SecurityContextHolderFilter@1ffa8edb, org.springframework.security.web.header.HeaderWriterFilter@74dce335, org.springframework.web.filter.CorsFilter@ad726be, org.springframework.security.web.authentication.logout.LogoutFilter@6bb567ba, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@7b08c14f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56cc64b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@393ee3d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b9ee536, org.springframework.security.web.session.SessionManagementFilter@b1ee7f0, org.springframework.security.web.access.ExceptionTranslationFilter@3f487a31, org.springframework.security.web.access.intercept.AuthorizationFilter@5ee67ba9]
+2024-10-03T14:47:44.370+0800 INFO LiveReload server is running on port 35729
+2024-10-03T14:47:44.412+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T14:47:44.427+0800 INFO Started MyRestApiServiceApplication in 7.759 seconds (process running for 8.83)
+2024-10-03T14:47:44.429+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T14:47:44.646+0800 INFO SocketIO server started at port: 8101
+2024-10-03T14:48:14.150+0800 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T14:48:14.150+0800 INFO Initializing Servlet 'dispatcherServlet'
+2024-10-03T14:48:14.151+0800 INFO Completed initialization in 1 ms
+2024-10-03T14:48:14.228+0800 ERROR Could not set user authentication in security context
+io.jsonwebtoken.security.WeakKeyException: The verification key's size is 256 bits which is not secure enough for the HS512 algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HS512 MUST have a size >= 512 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys class's 'secretKeyFor(SignatureAlgorithm.HS512)' method to create a key guaranteed to be secure enough for HS512.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.SignatureAlgorithm.assertValid(SignatureAlgorithm.java:387)
+	at io.jsonwebtoken.SignatureAlgorithm.assertValidVerificationKey(SignatureAlgorithm.java:328)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:380)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parse(ImmutableJwtParser.java:148)
+	at com.maybank.platform.services.restapi.config.security.TokenProvider.validateJwtToken(TokenProvider.java:67)
+	at com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter.doFilterInternal(TokenAuthenticationFilter.java:40)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilterInternal(SecurityContextHolderFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:351)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2024-10-03T14:48:16.874+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:48:16.961+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [85ms]
+2024-10-03T14:49:35.497+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:49:35.505+0800 INFO {dataSource-1} closed
+2024-10-03T14:49:41.479+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 80432 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T14:49:41.481+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T14:49:41.533+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T14:49:41.534+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T14:49:42.419+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:49:42.420+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T14:49:42.591+0800 INFO Finished Spring Data repository scanning in 162 ms. Found 6 JPA repository interfaces.
+2024-10-03T14:49:42.607+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:49:42.611+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T14:49:42.637+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.638+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.638+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.638+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.638+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.640+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:49:42.640+0800 INFO Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2024-10-03T14:49:43.198+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:49:43.257+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:49:43.792+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T14:49:43.803+0800 INFO Starting service [Tomcat]
+2024-10-03T14:49:43.804+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T14:49:43.871+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T14:49:43.871+0800 INFO Root WebApplicationContext: initialization completed in 2337 ms
+2024-10-03T14:49:44.182+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T14:49:44.237+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T14:49:44.408+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T14:49:44.767+0800 INFO {dataSource-1} inited
+2024-10-03T14:49:44.784+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T14:49:44.784+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T14:49:45.962+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T14:49:45.972+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:49:47.354+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T14:49:47.677+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@698a6158, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75a18e0a, org.springframework.security.web.context.SecurityContextHolderFilter@1a023950, org.springframework.security.web.header.HeaderWriterFilter@2fe2a9e0, org.springframework.web.filter.CorsFilter@53485a82, org.springframework.security.web.authentication.logout.LogoutFilter@3323d971, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@792a5d34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fdd87aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3012831a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53e0ee96, org.springframework.security.web.session.SessionManagementFilter@393ee3d7, org.springframework.security.web.access.ExceptionTranslationFilter@4b0444b7, org.springframework.security.web.access.intercept.AuthorizationFilter@34224db9]
+2024-10-03T14:49:48.280+0800 INFO LiveReload server is running on port 35729
+2024-10-03T14:49:48.332+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T14:49:48.347+0800 INFO Started MyRestApiServiceApplication in 7.759 seconds (process running for 8.826)
+2024-10-03T14:49:48.349+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T14:49:48.549+0800 INFO SocketIO server started at port: 8101
+2024-10-03T14:50:28.517+0800 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T14:50:28.517+0800 INFO Initializing Servlet 'dispatcherServlet'
+2024-10-03T14:50:28.519+0800 INFO Completed initialization in 1 ms
+2024-10-03T14:50:28.720+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:50:28.842+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [121ms]
+2024-10-03T14:50:48.097+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T14:50:48.105+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [8ms]
+2024-10-03T14:55:19.248+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:55:19.251+0800 INFO {dataSource-1} closed
+2024-10-03T14:55:28.067+0800 INFO Starting MyRestApiServiceApplication using Java 19.0.2 with PID 84388 (D:\Github\maybank-test\maybank-rest-api\target\classes started by kpc_0 in D:\Github\maybank-test)
+2024-10-03T14:55:28.069+0800 INFO No active profile set, falling back to 1 default profile: "default"
+2024-10-03T14:55:28.152+0800 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-03T14:55:28.153+0800 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-03T14:55:29.030+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:55:29.033+0800 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-03T14:55:29.242+0800 INFO Finished Spring Data repository scanning in 200 ms. Found 6 JPA repository interfaces.
+2024-10-03T14:55:29.274+0800 INFO Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-03T14:55:29.276+0800 INFO Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-03T14:55:29.301+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.301+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.301+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.FileInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.301+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.301+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.TransactionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.302+0800 INFO Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maybank.platform.services.restapi.dao.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-03T14:55:29.302+0800 INFO Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-10-03T14:55:29.864+0800 INFO Bean 'socketIOConfig' of type [com.maybank.platform.services.restapi.config.SocketIOConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:55:29.929+0800 INFO Bean 'socketIOServer' of type [com.corundumstudio.socketio.SocketIOServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-03T14:55:30.483+0800 INFO Tomcat initialized with port(s): 8100 (http)
+2024-10-03T14:55:30.494+0800 INFO Starting service [Tomcat]
+2024-10-03T14:55:30.494+0800 INFO Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-03T14:55:30.560+0800 INFO Initializing Spring embedded WebApplicationContext
+2024-10-03T14:55:30.561+0800 INFO Root WebApplicationContext: initialization completed in 2408 ms
+2024-10-03T14:55:30.899+0800 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-03T14:55:30.963+0800 INFO HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-03T14:55:31.135+0800 WARN HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-03T14:55:31.503+0800 INFO {dataSource-1} inited
+2024-10-03T14:55:31.528+0800 INFO HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2024-10-03T14:55:31.528+0800 WARN HHH90000026: MySQL57Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-03T14:55:32.737+0800 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-03T14:55:32.747+0800 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T14:55:34.067+0800 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-03T14:55:34.378+0800 INFO Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b9ee536, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34224db9, org.springframework.security.web.context.SecurityContextHolderFilter@393ee3d7, org.springframework.security.web.header.HeaderWriterFilter@4b0444b7, org.springframework.web.filter.CorsFilter@5adb4e6b, org.springframework.security.web.authentication.logout.LogoutFilter@73d4b6b5, com.maybank.platform.services.restapi.config.security.TokenAuthenticationFilter@f644487, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fde09d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a023950, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@698a6158, org.springframework.security.web.session.SessionManagementFilter@1ffa8edb, org.springframework.security.web.access.ExceptionTranslationFilter@74dce335, org.springframework.security.web.access.intercept.AuthorizationFilter@678122d4]
+2024-10-03T14:55:34.979+0800 INFO LiveReload server is running on port 35729
+2024-10-03T14:55:35.033+0800 INFO Tomcat started on port(s): 8100 (http) with context path '/maybank/v1/rest'
+2024-10-03T14:55:35.047+0800 INFO Started MyRestApiServiceApplication in 8.161 seconds (process running for 9.335)
+2024-10-03T14:55:35.049+0800 INFO Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2024-10-03T14:55:35.250+0800 INFO SocketIO server started at port: 8101
+2024-10-03T15:03:02.821+0800 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T15:03:02.821+0800 INFO Initializing Servlet 'dispatcherServlet'
+2024-10-03T15:03:02.822+0800 INFO Completed initialization in 1 ms
+2024-10-03T15:03:03.068+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:03:03.120+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [51ms]
+2024-10-03T15:03:18.101+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:03:18.114+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T15:03:20.076+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:03:20.087+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [10ms]
+2024-10-03T15:05:11.765+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:05:11.777+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T15:05:11.787+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:05:11.797+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [10ms]
+2024-10-03T15:05:14.362+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:05:14.378+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [15ms]
+2024-10-03T15:06:14.972+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:06:14.987+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [14ms]
+2024-10-03T15:06:14.998+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:06:15.013+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [15ms]
+2024-10-03T15:06:18.499+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:06:18.543+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [44ms]
+2024-10-03T15:06:19.918+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:06:19.936+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [17ms]
+2024-10-03T15:06:21.028+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:06:21.044+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [16ms]
+2024-10-03T15:10:08.120+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:10:08.135+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [14ms]
+2024-10-03T15:10:08.141+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:10:08.151+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T15:10:08.231+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T15:10:08.232+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T15:10:08.243+0800 WARN ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+2024-10-03T15:10:08.243+0800 WARN ResourceBundle [common-messages] not found for MessageSource: Can't find bundle for base name common-messages, locale en_US
+2024-10-03T15:10:13.261+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:10:13.273+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [11ms]
+2024-10-03T15:10:13.282+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:10:13.291+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [9ms]
+2024-10-03T15:18:05.861+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:18:05.875+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T15:18:05.886+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:18:05.899+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [12ms]
+2024-10-03T15:29:08.164+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:29:08.172+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T15:29:08.178+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:29:08.186+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [7ms]
+2024-10-03T15:29:11.169+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Start Timer
+2024-10-03T15:29:11.183+0800 INFO Performance Logger [UserDetailsServiceImpl.loadUserByUsername] - Time Used [14ms]
+2024-10-03T15:32:00.129+0800 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-03T15:32:00.139+0800 INFO {dataSource-1} closed
